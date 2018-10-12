@@ -24,13 +24,7 @@ namespace ActivitatAuth
         {
             try
             {
-                string tmp = Utils.LlegirUsuari(user);
-                if (String.IsNullOrEmpty(user))
-                    return false;
-                string sal = tmp.Substring(0, LongSalB64);
-                string hashGuardat = tmp.Substring(LongSalB64);
-                string hashCalculat = CalculaHash(password, Convert.FromBase64String(sal)).Substring(LongSalB64);
-                return hashCalculat == hashGuardat ? true : false;
+
 
             }
             catch
@@ -54,9 +48,7 @@ namespace ActivitatAuth
         {
             try
             {
-                byte[] sal = CalculaSalAleatoria();
-                string hash = CalculaHash(password, sal);
-                Utils.EscriuFitxer(user, hash);
+               
 
                 return true;
             }
