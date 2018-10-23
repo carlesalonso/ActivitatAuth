@@ -66,7 +66,7 @@ using (StreamWriter w = File.AppendText(fitxer))
  
 ````
 
-La pràctica cal implementar-la amb la captura d'errors (try/catch) i lliurant la solució bàsica té una qualificació màxima de 6 punts.
+**La pràctica cal implementar-la amb la captura d'errors (try/catch) i lliurant la solució bàsica té una qualificació màxima de 6 punts.**
  
  ## Millores
  
@@ -74,7 +74,7 @@ La pràctica cal implementar-la amb la captura d'errors (try/catch) i lliurant l
  
  * Obligar a que el password tingui un nivell de complexitat: majúscules, minúscules i dígits (1 punt) 
  
- * Introduir una nova opció que permeti canviar el password de l'usuari.
+ * Introduir una nova opció que permeti canviar el password de l'usuari. (1 punt)
  
  * Aplicació WPF o WinForms (2 punts)
  
