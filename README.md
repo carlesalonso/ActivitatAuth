@@ -1,4 +1,4 @@
-# ActivitatAut
+# Activitat Autenticació
 
 Quan cal guardar les contrasenyes dels usuaris, necessitem un mecanisme que asseguri aquesta informació. Com hem vist a teoria, la forma més habitual és guardar un hash del password de manera que no sigui possible fer una recuperació del password. 
 En aquesta activitat caldrà fer una aplicació en C# que realitzi el procés d’autenticació d’un sistema, per això tindrà les següents funcionalitats:
