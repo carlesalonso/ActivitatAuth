@@ -21,7 +21,7 @@ namespace ActivitatAuth
                 Console.WriteLine("**************************************************");
                 do
                 {
-                    // El ReadKey(true) és perquè no s'escrigui per tornarpantalla
+                    // El ReadKey(true) és perquè no s'escrigui per pantalla
                     option = Console.ReadKey(true);
                 } while (option.KeyChar < '0' || option.KeyChar > '2');
                 Console.Clear();
